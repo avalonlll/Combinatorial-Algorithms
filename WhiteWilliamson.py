@@ -22,6 +22,6 @@ while(True):
     print("New set of the chain:\n", data[1:])
     chain.append(data[1:])
     answer=input("Do you want to perform the operation again? y/n\n")
-    if answer=="n":
+    if answer!="y":
         break
 print("The constructed chain is:\n", chain)
