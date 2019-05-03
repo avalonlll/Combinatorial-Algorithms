@@ -1,7 +1,7 @@
 #white williamson algorithm Implementation for symmetric chain decomposition (SCD)
 #source: Ian Anderson, combinatorics of finite sets, p.36
 #author: K. Chatzikokolakis, University of Piraeus
-data=input("Give the initial et of the chain. Separate each term with commas.\n")
+data=input("Give the initial set of the chain. Separate each term with commas.\n")
 data=data.split(",")#split the input to a list
 data=list(map(int, data)) #convert string list to int list
 data.append(0)#insert into the list the value 0
