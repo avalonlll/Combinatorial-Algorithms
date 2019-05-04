@@ -4,7 +4,7 @@ About White-Williamson algorithm:<br/>
 Given a set (for example: {2, 3, 7, 8}), let the set be a, we do the following process:<br/>
 We append as first term of the set the number 0 (for example: {0, 2, 3, 7, 8})<br/>
 Then, we do the following: we calculate the expression a[i]-2*i for every i=0, 1, ..., length of a<br/>
-From all the calculation, we keep the i' such that the expression a[i]-2 \cdot i is minimum<br/>
+From all the calculation, we keep the i' such that the expression a[i]-2*i is minimum<br/>
 After that, we append to the set a the number 1+a[i']<br/>
 
 
